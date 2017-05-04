@@ -1,6 +1,27 @@
 # -*- coding: utf-8 -*-
 
 import sqlite3
+
+
+
+def insert_one_ckx(param):
+
+
+    conn=sqlite3.connect("accounts.db")
+   # print param
+    c=conn.cursor()
+    sql_insert="insert into {tablename}(id, private, public, address, wif) values {ourvalue}".format(tablename="account",ourvalue=param)
+    try:
+        c.execute(sql_insert)
+    except:
+        'sql_insert is not correct!!'
+    #print sql_insert
+
+    conn.commit()
+    conn.close()
+
+
+
 def add_account_table():
     conn=sqlite3.connect("test.db")
     c=conn.cursor()
@@ -83,7 +104,7 @@ def query_data_test():
 
 
 
-def insert_data_test():
+def update_data_test():
     conn = sqlite3.connect("test.db")
     c = conn.cursor()
 

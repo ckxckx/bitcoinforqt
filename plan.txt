@@ -1,4 +1,15 @@
-1. ourtool.py
-class Get_Account
-methods:
-get_account
+oursetup.py:
+初始化，删除数据库等等项目操作
+
+oursql.py:
+数据库语句写成函数放进去
+
+ourtools.py:
+以后写好的类都往里放
+现在写好一个Get_Account
+
+
+test.db测试用
+accounts.db用来当数据库用
+
+test.py写测试脚本
