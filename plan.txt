@@ -13,3 +13,12 @@ test.db测试用
 accounts.db用来当数据库用
 
 test.py写测试脚本
+
+测试这个
+
+  "private": "66cf8979791142ea650397cf29b474ac215008d6c93f3adaccdad1d833a64f5c",
+  "public": "03565b4d5d01b7ecca773a57df552ce0a2ea63ab0bbfa69fd5958de99c5e62e36e",
+  "address": "
+mgN94Z7hRWy4UfZHTj2T8hZd1BctusLkps
+  ",
+  "wif": "cR2YypXUsc6ncViGKPfQ7Ly9oKKfQhZyQYujdaMCByg2upqpjWvv"

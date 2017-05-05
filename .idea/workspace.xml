@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdaea40-e77b-4384-9efc-a2b402e3bc76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oursetup.py" />
-      <change type="DELETED" beforePath="D:\bitcoinforqt\bitcoinforqt\mytools.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\bitcoinforqt\bitcoinforqt\sql.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oursql.py" afterPath="$PROJECT_DIR$/oursql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts.db" afterPath="$PROJECT_DIR$/accounts.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourtools.py" afterPath="$PROJECT_DIR$/ourtools.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plan.txt" afterPath="$PROJECT_DIR$/plan.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -24,7 +21,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/bitcoinforqt$sql.coverage" NAME="sql Coverage Results" MODIFIED="1493901308286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bitcoinforqt$oursetup.coverage" NAME="oursetup Coverage Results" MODIFIED="1493909326373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bitcoinforqt$ourtools.coverage" NAME="ourtools Coverage Results" MODIFIED="1493909964085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bitcoinforqt$ourtools.coverage" NAME="ourtools Coverage Results" MODIFIED="1493957218394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,13 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ourtools.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ourtools.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ourtools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.32249674">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
-                <element signature="e#24#37#0" expanded="true" />
+                <element signature="e#260#1787#0" expanded="false" />
+                <element signature="e#832#1546#0" expanded="false" />
+                <element signature="e#1580#1659#0" expanded="false" />
+                <element signature="e#1698#1787#0" expanded="false" />
+                <element signature="e#1827#1994#0" expanded="false" />
+                <element signature="e#2028#2460#0" expanded="false" />
+                <element signature="e#2500#2861#0" expanded="false" />
+                <element signature="e#2928#3089#0" expanded="false" />
+                <marker date="1493957523469" expanded="true" signature="2246:2284" placeholder="select * fro..account..." />
               </folding>
             </state>
           </provider>
@@ -85,8 +90,14 @@
         <entry file="file://$PROJECT_DIR$/oursql.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="102" selection-end-column="16" />
               <folding>
+                <element signature="e#76#432#0" expanded="false" />
+                <element signature="e#465#854#0" expanded="false" />
+                <element signature="e#958#1276#0" expanded="false" />
+                <element signature="e#1306#1926#0" expanded="false" />
+                <element signature="e#2499#2667#0" expanded="false" />
+                <element signature="e#2698#2990#0" expanded="false" />
                 <marker date="1493909947391" expanded="true" signature="165:241" placeholder="insert into ..." />
                 <marker date="1493909947391" expanded="true" signature="526:729" placeholder="create table..account..." />
                 <marker date="1493909947391" expanded="true" signature="1096:1192" placeholder="create table..student..." />
@@ -106,18 +117,18 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plan.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plan.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plan.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5643693">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -152,8 +163,9 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/oursetup.py" />
         <option value="$PROJECT_DIR$/oursql.py" />
-        <option value="$PROJECT_DIR$/ourtools.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/plan.txt" />
+        <option value="$PROJECT_DIR$/ourtools.py" />
       </list>
     </option>
   </component>
@@ -193,8 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,6 +225,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -516,7 +528,7 @@
     <frame x="-12" y="-12" width="1944" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20010905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20774265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44132653" sideWeight="0.5065789" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -525,7 +537,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279703" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44059405" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23514852" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -550,7 +562,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -560,28 +572,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#260#1787#0" expanded="false" />
+            <element signature="e#832#1546#0" expanded="false" />
+            <element signature="e#1580#1659#0" expanded="false" />
+            <element signature="e#1698#1787#0" expanded="false" />
+            <element signature="e#1827#1994#0" expanded="false" />
+            <element signature="e#2028#2460#0" expanded="false" />
+            <element signature="e#2500#2861#0" expanded="false" />
+            <element signature="e#2928#3089#0" expanded="false" />
+            <marker date="1493957523469" expanded="true" signature="2246:2284" placeholder="select * fro..account..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ourtools.py">
+    <entry file="file://$PROJECT_DIR$/accounts.db">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ourtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -593,13 +601,223 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oursetup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="e#97#111#0" expanded="true" />
+            <marker date="1493909370173" expanded="true" signature="354:614" placeholder="create table..account..." />
+            <marker date="1493909370173" expanded="true" signature="931:949" placeholder="drop table a..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oursql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#76#432#0" expanded="false" />
+            <element signature="e#465#854#0" expanded="false" />
+            <element signature="e#958#1276#0" expanded="false" />
+            <element signature="e#1306#1926#0" expanded="false" />
+            <element signature="e#2499#2667#0" expanded="false" />
+            <element signature="e#2698#2990#0" expanded="false" />
+            <marker date="1493909947391" expanded="true" signature="165:241" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="526:729" placeholder="create table..account..." />
+            <marker date="1493909947391" expanded="true" signature="1096:1192" placeholder="create table..student..." />
+            <marker date="1493909947391" expanded="true" signature="1587:1664" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="1723:1761" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="1822:1860" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="2060:2101" placeholder="select * fro..student..." />
+            <marker date="1493909947391" expanded="true" signature="2225:2266" placeholder="select * fro..student..." />
+            <marker date="1493909947391" expanded="true" signature="2351:2392" placeholder="select * fro..student..." />
+            <marker date="1493909947391" expanded="true" signature="2567:2611" placeholder="update stude..." />
+            <marker date="1493909947391" expanded="true" signature="2770:2800" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ourtools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#260#1787#0" expanded="false" />
+            <element signature="e#832#1546#0" expanded="false" />
+            <element signature="e#1580#1659#0" expanded="false" />
+            <element signature="e#1698#1787#0" expanded="false" />
+            <element signature="e#1827#1994#0" expanded="false" />
+            <element signature="e#2028#2460#0" expanded="false" />
+            <element signature="e#2500#2861#0" expanded="false" />
+            <element signature="e#2928#3089#0" expanded="false" />
+            <marker date="1493957523469" expanded="true" signature="2246:2284" placeholder="select * fro..account..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oursetup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="e#97#111#0" expanded="true" />
+            <marker date="1493909370173" expanded="true" signature="354:614" placeholder="create table..account..." />
+            <marker date="1493909370173" expanded="true" signature="931:949" placeholder="drop table a..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oursql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#76#432#0" expanded="false" />
+            <element signature="e#465#854#0" expanded="false" />
+            <element signature="e#958#1276#0" expanded="false" />
+            <element signature="e#1306#1926#0" expanded="false" />
+            <element signature="e#2499#2667#0" expanded="false" />
+            <element signature="e#2698#2990#0" expanded="false" />
+            <marker date="1493909947391" expanded="true" signature="165:241" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="526:729" placeholder="create table..account..." />
+            <marker date="1493909947391" expanded="true" signature="1096:1192" placeholder="create table..student..." />
+            <marker date="1493909947391" expanded="true" signature="1587:1664" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="1723:1761" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="1822:1860" placeholder="insert into ..." />
+            <marker date="1493909947391" expanded="true" signature="2060:2101" placeholder="select * fro..student..." />
+            <marker date="1493909947391" expanded="true" signature="2225:2266" placeholder="select * fro..student..." />
+            <marker date="1493909947391" expanded="true" signature="2351:2392" placeholder="select * fro..student..." />
+            <marker date="1493909947391" expanded="true" signature="2567:2611" placeholder="update stude..." />
+            <marker date="1493909947391" expanded="true" signature="2770:2800" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ourtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#260#1787#0" expanded="false" />
+            <element signature="e#832#1546#0" expanded="false" />
+            <element signature="e#1580#1659#0" expanded="false" />
+            <element signature="e#1698#1787#0" expanded="false" />
+            <element signature="e#1827#1994#0" expanded="false" />
+            <element signature="e#2028#2460#0" expanded="false" />
+            <element signature="e#2500#2861#0" expanded="false" />
+            <element signature="e#2928#3089#0" expanded="false" />
+            <marker date="1493957523469" expanded="true" signature="2246:2284" placeholder="select * fro..account..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ourtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#260#1787#0" expanded="false" />
+            <element signature="e#832#1546#0" expanded="false" />
+            <element signature="e#1580#1659#0" expanded="false" />
+            <element signature="e#1698#1787#0" expanded="false" />
+            <element signature="e#1827#1994#0" expanded="false" />
+            <element signature="e#2028#2460#0" expanded="false" />
+            <element signature="e#2500#2861#0" expanded="false" />
+            <element signature="e#2928#3089#0" expanded="false" />
+            <marker date="1493957523469" expanded="true" signature="2246:2284" placeholder="select * fro..account..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ourtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#260#1787#0" expanded="false" />
+            <element signature="e#832#1546#0" expanded="false" />
+            <element signature="e#1580#1659#0" expanded="false" />
+            <element signature="e#1698#1787#0" expanded="false" />
+            <element signature="e#1827#1994#0" expanded="false" />
+            <element signature="e#2028#2460#0" expanded="false" />
+            <element signature="e#2500#2861#0" expanded="false" />
+            <element signature="e#2928#3089#0" expanded="false" />
+            <marker date="1493957523469" expanded="true" signature="2246:2284" placeholder="select * fro..account..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,11 +849,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oursql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="102" selection-end-column="16" />
           <folding>
+            <element signature="e#76#432#0" expanded="false" />
+            <element signature="e#465#854#0" expanded="false" />
+            <element signature="e#958#1276#0" expanded="false" />
+            <element signature="e#1306#1926#0" expanded="false" />
+            <element signature="e#2499#2667#0" expanded="false" />
+            <element signature="e#2698#2990#0" expanded="false" />
             <marker date="1493909947391" expanded="true" signature="165:241" placeholder="insert into ..." />
             <marker date="1493909947391" expanded="true" signature="526:729" placeholder="create table..account..." />
             <marker date="1493909947391" expanded="true" signature="1096:1192" placeholder="create table..student..." />
@@ -651,19 +883,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/plan.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plan.txt">
+    <entry file="file://$PROJECT_DIR$/ourtools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5643693">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="0.32249674">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="e#260#1787#0" expanded="false" />
+            <element signature="e#832#1546#0" expanded="false" />
+            <element signature="e#1580#1659#0" expanded="false" />
+            <element signature="e#1698#1787#0" expanded="false" />
+            <element signature="e#1827#1994#0" expanded="false" />
+            <element signature="e#2028#2460#0" expanded="false" />
+            <element signature="e#2500#2861#0" expanded="false" />
+            <element signature="e#2928#3089#0" expanded="false" />
+            <marker date="1493957523469" expanded="true" signature="2246:2284" placeholder="select * fro..account..." />
+          </folding>
         </state>
       </provider>
     </entry>

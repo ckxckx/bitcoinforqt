@@ -2,7 +2,18 @@
 import oursql
 from requests import post
 from json import loads,dumps
+from blockcypher import get_address_overview, send_faucet_coins
+import sqlite3
+#you can use help(class) to get deep understanding of our tools
+
 class Get_Account:
+    '''
+    Get_Account has several function to help us establish our accounts in testnet
+    after 创建一个实例
+    1. you should use get_account() to gain several tips of messages
+    2. save2sql()
+    3. use printourparas() you can print all the items after you get some information from remote api
+    '''
     res=''
     res_dict={}
     saveunit=()
@@ -39,27 +50,65 @@ class Get_Account:
         oursql.insert_one_ckx(key)
         #print flag
 
-
     def printourparas(self):
-        pass
+        try:
+            print self.res.content
+        except:
+            print 'no paras got!'
+def query_address_assets(address):
+    '''
+    :param address: input address
+    :return: assets below this address
+    '''
+    res = get_address_overview(address,'btc-testnet')
+    print res
+    return res
+def query_address_in_sql(n):
+    '''
 
-# def test():
-#     myaccount=Get_Account()
-#     res=myaccount.get_account()
-#     print type(res)
-def sayhello():
-    print "hello"
+    :param n: the number of address to display
+    :return: temporarily is none
+    '''
 
 
+    conn = sqlite3.connect('accounts.db')
+    c = conn.cursor()
+
+    # 第一种：retrieve one record
+    try:
+        c.execute('select * from account order by id desc')
+        for i in range(n):
+            print(c.fetchone()[3])  #第1条记录
+    except:
+        print 'n is too large to display all!!' #第2条记录
 
 
-if __name__=='__main__':
+    conn.commit()
+    conn.close()
+def show_me_the_money(money=1000):
+    '''
+    :param money: everytime < 500,000, total < 100,000,000
+    :return:
+    '''
+    addr="mgN94Z7hRWy4UfZHTj2T8hZd1BctusLkps"
+    token="bcd4149ae42a400c9838081564d6ec23"
+    send_faucet_coins(address_to_fund=addr,\
+                  api_key=token,\
+                  coin_symbol='btc-testnet',\
+                  satoshis=money)
+    print 'money is done !'
+
+####this area is for testing code###
+def test_Get_Account():
     myaccount=Get_Account()
+   # myaccount.printourparas()
     res=myaccount.get_account()
     print type(res)
     myaccount.save2sql()
+    myaccount.printourparas()
+#############testing code #########
+
+if __name__=='__main__':
+    show_me_the_money(300)
 
 
-# myaccount=Get_Account()
-# res=myaccount.get_account()
-# print type(res)
