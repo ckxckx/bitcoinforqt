@@ -21,7 +21,6 @@ def insert_one_ckx(param):
     conn.close()
 
 
-
 def add_account_table():
     conn=sqlite3.connect("test.db")
     c=conn.cursor()

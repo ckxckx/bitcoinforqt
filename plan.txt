@@ -22,3 +22,4 @@ test.py写测试脚本
 mgN94Z7hRWy4UfZHTj2T8hZd1BctusLkps
   ",
   "wif": "cR2YypXUsc6ncViGKPfQ7Ly9oKKfQhZyQYujdaMCByg2upqpjWvv"
+  myaddr1='mgN94Z7hRWy4UfZHTj2T8hZd1BctusLkps'

@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+flag='btc-testnet'
+mytoken='bcd4149ae42a400c9838081564d6ec23'
+
+mypriv1="66cf8979791142ea650397cf29b474ac215008d6c93f3adaccdad1d833a64f5c"
+mypub1="03565b4d5d01b7ecca773a57df552ce0a2ea63ab0bbfa69fd5958de99c5e62e36e"
+myaddr1='mgN94Z7hRWy4UfZHTj2T8hZd1BctusLkps'
+
+mypriv2= "3685e91bc2ad3e2e89a464524395b53e8ddd24a622e05f7a91cbdafed30b83f3"
+mypub2= "02f4e9b46de67afd0898d642f8d60ef5eb254710bcb260c76f347fe5a0cd4261b1"
+myaddr2= "mzPnKxCTMF3Dx9Nx9ktZ6n72LFheEX3MpQ"
+
+mypriv3="f48f4f386fed054a660e6d8167d47a1732afec930a5dc853f345e901ba3dc959"
+mypub3="039ae76bd417271b01467925fa7704cec88bfd18fd6d4b4a33a91535341c3da240"
+myaddr3="mkRWq1mYQULVoJgmgoPNreYN6SNEMo3XTK"
+
+

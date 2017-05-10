@@ -3,7 +3,10 @@ import oursql
 from requests import post
 from json import loads,dumps
 from blockcypher import get_address_overview, send_faucet_coins
+from blockcypher import create_unsigned_tx, make_tx_signatures,get_input_addresses
+from blockcypher import broadcast_signed_transaction
 import sqlite3
+from ouretc import *
 #you can use help(class) to get deep understanding of our tools
 
 class Get_Account:
@@ -85,18 +88,60 @@ def query_address_in_sql(n):
 
     conn.commit()
     conn.close()
-def show_me_the_money(money=1000):
+def show_me_the_money(money=400000,addr=myaddr1):
     '''
     :param money: everytime < 500,000, total < 100,000,000
     :return:
     '''
-    addr="mgN94Z7hRWy4UfZHTj2T8hZd1BctusLkps"
-    token="bcd4149ae42a400c9838081564d6ec23"
+    # addr="mgN94Z7hRWy4UfZHTj2T8hZd1BctusLkps"
+   # addr="mzPnKxCTMF3Dx9Nx9ktZ6n72LFheEX3MpQ"
+    token=mytoken
     send_faucet_coins(address_to_fund=addr,\
                   api_key=token,\
                   coin_symbol='btc-testnet',\
                   satoshis=money)
     print 'money is done !'
+def our_create_txt(account_in,account_out):
+    '''
+    :param account_in,数组:
+    :param account_out:
+    :example:       account_in=[mypriv1,mypub1,myaddr1]
+                    account_out=[myaddr2]
+    '''
+    inputs = [{'address':account_in[2]}, ]
+    outputs = [{'address': account_out[0], 'value': 1}]
+    unsigned_tx = create_unsigned_tx(inputs=inputs,\
+                                     outputs=outputs, \
+                                     coin_symbol=flag,\
+                                     api_key=mytoken)
+    num=len(get_input_addresses(unsigned_tx))
+ #   print unsigned_tx
+#    print unsigned_tx
+  #  return unsigned_tx
+
+    privkey_list=[account_in[0]]*num
+    pubkey_list=[account_in[1]]*num
+    #签名
+    tx_signatures = make_tx_signatures(txs_to_sign=unsigned_tx['tosign'],\
+                                       privkey_list=privkey_list,\
+                                       pubkey_list=pubkey_list)
+  #  print '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'
+  #  print tx_signatures
+    kk=broadcast_signed_transaction(unsigned_tx=unsigned_tx, \
+                                    signatures=tx_signatures,\
+                                    pubkeys=pubkey_list,\
+                                    coin_symbol=flag,\
+                                    api_key=mytoken)
+    #print kk
+    print "successed!"
+  #  return kk
+
+
+# class our_Transaction:
+#     def __init__(self):
+#         pass
+
+
 
 ####this area is for testing code###
 def test_Get_Account():
@@ -106,9 +151,17 @@ def test_Get_Account():
     print type(res)
     myaccount.save2sql()
     myaccount.printourparas()
-#############testing code #########
+
+
+
+def test_our_create_txt():
+    account_in=[mypriv1,mypub1,myaddr1]
+    account_out=[myaddr2]
+    our_create_txt(account_in,account_out)
+#############testing code #########ru
+
+
 
 if __name__=='__main__':
-    show_me_the_money(300)
-
+    pass
 
