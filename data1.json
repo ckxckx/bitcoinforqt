@@ -55,3 +55,18 @@
 "size": 119
 }
 }
+
+
+
+
+>>> from blockcypher import make_tx_signatures
+# Using our same unsigned_tx as before, iterate through unsigned_tx['tx']['inputs'] to find each address in order.
+# Include duplicates as many times as they may appear:
+>>> privkey_list = ['privkeyhex1', 'privkeyhex2', ...]
+>>> pubkey_list = ['pubkeyhex1', 'pubkeyhex2', ,,,]
+>>> tx_signatures = make_tx_signatures(txs_to_sign=unsigned_tx['tosign'], privkey_list=privkey_list, pubkey_list=pubkey_list)
+Locally Sign Your Transaction
+
+With your TXSkeleton returned from the New Transaction Endpoint, you now need to use your private key(s) to sign the data provided in the tosign array.
+
+Digital signing can be a difficult process, and is where the 
