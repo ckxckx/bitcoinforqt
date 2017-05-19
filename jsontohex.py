@@ -38,13 +38,18 @@ def json2hex(in_json):
 
 
 ################add by ckx#####################
-		result.append('ffffffff')
+		# result.append('ffffffff')
 #################################################
 		# squence can be int
-		if isinstance(perin['sequence'], int):
+		if isinstance(perin['sequence'], long):
+			print 'pppppppppppppppppppp'
+			result.append(dec2byte(perin['sequence'], 4))
+		elif isinstance(perin['sequence'], int):
+			print '\nxxxxxxxxxxxxxxxxxxxxxxxxxx\n'
 			result.append(dec2byte(perin['sequence'], 4))
 		# or be normal hex-str
 		elif isinstance(perin['sequence'], str):
+			print '\nuuuuuuuuuuuuuuuuuuuuuu\n'
 			result.append(big2little(perin['sequence']))
 
 	# add output_num to hex
