@@ -28,17 +28,16 @@ fundingtransaction = {
 		"outputs": [
 			{
 				"value": 1000000,
-				"script_pub":
-                "
-                    OP_DUPOP_HASH160 < HASH160(
-                        OP_HASH160 < HASH160(hA) > OP_EQUAL
+				"script_pub":'''
+                    OP_DUPOP_HASH160 < HASH160(\
+                        OP_HASH160 < HASH160(hA) > OP_EQUAL\
                         OP_IF
                             OP_2 < B1PubKey > < A1PubKey >OP_2OP_CHECKMULTISIG
                         OP_ELSE
                             < Ttime >OP_CHECKSQUENCEVERIFYOP_DROP < B2PubKey > OP_CHECKSIG
                         OP_ENDIF
                     ) > OP_EQUAL
-                ",
+                ''',
 			},
 		]
 	}
