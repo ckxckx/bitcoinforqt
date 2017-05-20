@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdaea40-e77b-4384-9efc-a2b402e3bc76" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourfairtransaction.py" afterPath="$PROJECT_DIR$/ourfairtransaction.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -37,8 +36,8 @@
       <file leaf-file-name="ourtools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ourtools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+            <state vertical-scroll-proportion="-2.8181818">
+              <caret line="17" column="82" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="82" />
               <folding>
                 <element signature="e#989#1703#0" expanded="false" />
                 <element signature="e#1737#1816#0" expanded="false" />
@@ -83,8 +82,8 @@
       <file leaf-file-name="oursql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oursql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.1909091">
+              <caret line="12" column="100" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="100" />
               <folding>
                 <marker date="1494334735687" expanded="true" signature="165:241" placeholder="insert into ..." />
                 <marker date="1494334735687" expanded="true" signature="525:728" placeholder="create table..account..." />
@@ -115,8 +114,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68793344">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.73092926">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -145,8 +144,8 @@
       <file leaf-file-name="ourfairtransaction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ourfairtransaction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.395833">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state vertical-scroll-proportion="-2.5833333">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <marker date="1495246829075" expanded="true" signature="120:874" placeholder="..." />
                 <marker date="1495246829075" expanded="false" signature="904:1805" placeholder="..." />
@@ -255,6 +254,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="92" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="136" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="138" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1377" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="81" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="140" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1381" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -1004,20 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ourtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
-          <folding>
-            <element signature="e#989#1703#0" expanded="false" />
-            <element signature="e#1737#1816#0" expanded="false" />
-            <element signature="e#1855#1944#0" expanded="false" />
-            <element signature="e#4569#4730#0" expanded="false" />
-            <marker date="1494422416908" expanded="true" signature="2403:2441" placeholder="select * fro..account..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1034,10 +1035,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ourtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8181818">
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="82" />
+          <folding>
+            <element signature="e#989#1703#0" expanded="false" />
+            <element signature="e#1737#1816#0" expanded="false" />
+            <element signature="e#1855#1944#0" expanded="false" />
+            <element signature="e#4569#4730#0" expanded="false" />
+            <marker date="1494422416908" expanded="true" signature="2403:2441" placeholder="select * fro..account..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oursql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.1909091">
+          <caret line="12" column="100" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="100" />
           <folding>
             <marker date="1494334735687" expanded="true" signature="165:241" placeholder="insert into ..." />
             <marker date="1494334735687" expanded="true" signature="525:728" placeholder="create table..account..." />
@@ -1056,8 +1071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ourfairtransaction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.395833">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        <state vertical-scroll-proportion="-2.5833333">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <marker date="1495246829075" expanded="true" signature="120:874" placeholder="..." />
             <marker date="1495246829075" expanded="false" signature="904:1805" placeholder="..." />
@@ -1070,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68793344">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.73092926">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>

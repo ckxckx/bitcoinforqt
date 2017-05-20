@@ -7,12 +7,18 @@ fun_seq2=4294967295
 fun_value=10000   #pay attetion：两单交易的输入和要约等于这个输出
 fun_sato=fun_value*100000000
 fun_opcode='''\
-OP_DUP OP_HASH160 < HASH160(\
-OP_HASH160 < HASH160(hA) > OP_EQUAL\
-OP_IF OP_2 < B1PubKey > < A1PubKey >OP_2 OP_CHECKMULTISIG OP_ELSE\
-< Ttime >OP_CHECKSQUENCEVERIFYOP_DROP < B2PubKey > OP_CHECKSIG\
-OP_ENDIF) > OP_EQUAL\
+{OP_DUP}{OP_HASH160}{hashed_Redeem}{OP_EQUAL}\
 '''
+
+Redeem='''\
+{OP_HASH160}{HASH160(hA)}{OP_EQUAL}\
+{OP_IF}{OP_2}{B1PubKey}{A1PubKey}{OP_2}{OP_CHECKMULTISIG}{OP_ELSE}\
+{Ttime}{OP_CHECKSQUENCEVERIFY}{OP_DROP}{B2PubKey}{OP_CHECKSIG}\
+{OP_ENDIF}\
+'''
+hashed_Redeem=hash160(Redeem)
+
+
 
 fundingtransaction = {
         "version": 1,
