@@ -1,5 +1,6 @@
-fun_unspent_txid1=''
-fun_unspent_txid2=''
+from yinshe import *
+fun_unspent_txid1='e7ed45bf641ebb9eed3e1e233ace260b79670a8d9005438ce1418203439551ca'
+fun_unspent_txid2='590ae623a4b651a906a8ed6e0c887ab1874f463e82fe08567dc5d56de2112b22'
 fun_sig1=''
 fun_sig2=''
 fun_seq1=4294967295
@@ -16,6 +17,8 @@ Redeem='''\
 {Ttime}{OP_CHECKSQUENCEVERIFY}{OP_DROP}{B2PubKey}{OP_CHECKSIG}\
 {OP_ENDIF}\
 '''
+
+
 hashed_Redeem=hash160(Redeem)
 
 
